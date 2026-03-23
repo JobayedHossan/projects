@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jobayed Hossan Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 50px;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .image {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .projects, .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 250px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+    }
+
+    a {
+      color: lightblue;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jobayed Hossan</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Section with Background Image -->
+<section id="about">
+  <div class="container">
+    <div class="text">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer skilled in React, Node.js, Express, HTML, CSS, JavaScript, and Tailwind. I love building web applications and learning new technologies.</p>
+    </div>
+    <div class="image">
+      <img src="./pic.png.jpg" alt="Professional Background">
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card">React</div>
+    <div class="card">Node.js</div>
+    <div class="card">Express</div>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Tailwind</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>English Janala</h3>
+      <p>An English learning website for users to improve their language skills.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: jobayedhossan@email.com</p>
+  <p>GitHub: <a href="https://github.com/jobayedhossan">github.com/jobayedhossan</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/jobayed-hossan">linkedin.com/in/jobayedhossan</a></p>
+  <p>Phone: +8801928120591</p>
+  <p>Portfolio: <a href="">yourportfolio.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Jobayed Hossan</p>
+</footer>
+
+</body>
+</html>
